@@ -34,9 +34,7 @@
         <UnitName Value="quake2FPC"/>
         <CursorPos X="9" Y="78"/>
         <TopLine Value="78"/>
-        <EditorIndex Value="0"/>
-        <UsageCount Value="26"/>
-        <Loaded Value="True"/>
+        <UsageCount Value="27"/>
         <SyntaxHighlighter Value="Delphi"/>
       </Unit0>
       <Unit1>
@@ -174,19 +172,26 @@
         <Filename Value="..\game\q_shared_add.pas"/>
         <UnitName Value="q_shared_add"/>
         <CursorPos X="1" Y="1"/>
-        <TopLine Value="143"/>
+        <TopLine Value="206"/>
         <UsageCount Value="10"/>
         <SyntaxHighlighter Value="Delphi"/>
       </Unit20>
       <Unit21>
         <Filename Value="..\linux\sys_linux.pas"/>
         <UnitName Value="sys_linux"/>
-        <CursorPos X="19" Y="494"/>
-        <TopLine Value="3"/>
+        <CursorPos X="1" Y="1"/>
+        <TopLine Value="1"/>
+        <EditorIndex Value="0"/>
         <UsageCount Value="10"/>
+        <Loaded Value="True"/>
       </Unit21>
     </Units>
-    <JumpHistory Count="0" HistoryIndex="-1"/>
+    <JumpHistory Count="1" HistoryIndex="0">
+      <Position1>
+        <Filename Value="..\linux\sys_linux.pas"/>
+        <Caret Line="494" Column="19" TopLine="453"/>
+      </Position1>
+    </JumpHistory>
   </ProjectOptions>
   <CompilerOptions>
     <Version Value="8"/>

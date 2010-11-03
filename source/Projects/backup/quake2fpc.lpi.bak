@@ -32,8 +32,8 @@
         <IsPartOfProject Value="True"/>
         <UnitName Value="quake2FPC"/>
         <CursorPos X="9" Y="78"/>
-        <TopLine Value="124"/>
-        <UsageCount Value="26"/>
+        <TopLine Value="78"/>
+        <UsageCount Value="27"/>
         <SyntaxHighlighter Value="Delphi"/>
       </Unit0>
       <Unit1>
@@ -171,7 +171,7 @@
         <Filename Value="..\game\q_shared_add.pas"/>
         <UnitName Value="q_shared_add"/>
         <CursorPos X="1" Y="1"/>
-        <TopLine Value="143"/>
+        <TopLine Value="206"/>
         <UsageCount Value="10"/>
         <SyntaxHighlighter Value="Delphi"/>
       </Unit20>
