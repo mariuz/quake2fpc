@@ -1,0 +1,218 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!-- saved from url=(0102)http://web.archive.org/web/20071006190605/http://z505.com/cgi-bin/qkcont/qkcont.cgi?p=Quake2FreePascal -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<!--<base href="http://z505.com.wstub.archive.org/cgi-bin/qkcont/">--><base href=".">
+<title>PasWiki : Quake2FreePascal</title>
+</head><body text="#939393" bgcolor="#161616" link="#4A6066" vlink="#44585E" alink="#44585E">
+
+<center>
+<div style="font-family:verdana, sans-serif;">
+<table style="" width="100%" bgcolor="#161616" border="0">
+  <tbody><tr>
+
+        <td width="20%" valign="top" style="padding:0.4em; " nowrap="">
+          <div style="text-align:center; border-style:solid; border-color:#515151; border-width:1px; padding:0.5em; font-family:verdana; color: #536B73; font-size: 1.5em;">
+            <b>p a s w i k i</b><p>
+          </p></div>
+
+          <div style="background-color: #D1350E; font-size: 1.2em;text-align:center; margin: 0.5em;"><a style="text-decoration:none; color: #FFCC33;" href="http://web.archive.org/web/20071006190605/http://z505.com/paswiki1000.htm">BREAK 1 THOUSAND</a></div>
+
+          <div style="text-align:center; border-style:solid; border-color: #515151; border-width:1px; padding:0.5em; margin-top:2em; font-family:verdana; color: #6B6B6B;">
+
+
+
+            <b>Navigation</b><p>
+            </p><div style="padding:0.5em; text-align:center; ">
+              <small>
+                <a style="text-decoration:none;" href="http://web.archive.org/web/20071006190605/http://z505.com/cgi-bin/qkcont/qkcont.cgi?p=PasWiki">P a s W i k i &nbsp;M a i n</a><p>
+                <a style="text-decoration:none;" href="http://web.archive.org/web/20071006190605/http://z505.com/cgi-bin/qkcont/qkcont.cgi?p=PasWiki-Directory">P a s W i k i &nbsp;D i r e c t o r y</a></p><p>
+                <a style="text-decoration:none;" href="http://web.archive.org/web/20071006190605/http://z505.com/contact.htm">F l a m e &nbsp;A u t h o r</a></p><p>
+                <a style="text-decoration:none;" href="http://web.archive.org/web/20071006190605/http://z505.com/consulting.htm">P a y &nbsp;A u t h o r</a></p></small><p><small>
+              </small>
+
+            </p></div>
+            
+          </div>
+
+            <div style="color: #595959; border-style:solid; border-color:#515151; border-width:1px; padding:0.5em; margin-top:1em;">
+            <small><i>
+              "The worst you were taught as a <br>
+              child was: 'don't be smart'." --L505 </i>
+            </small>
+            </div>
+        </td>
+
+        <td valign="top" style="border-style:solid; border-width:1px; border-color: #515151;">
+          <table cellpadding="6">
+              <tbody><tr>
+                <td style="padding:0.8em;" nowrap=""><font color="#818181" size="4"><b>Quake2FreePascal</b></font> </td>
+              </tr>
+
+              <tr>
+                          <td nowrap="">          
+                            <font face="verdana" size="2">
+                            Recommended: <a href="http://web.archive.org/web/20071006190605/http://z505.com/clients/server-deals/limited-time-free.htm">3-6 Month Free Deals<b> (pro hosting)</b></a> 
+                            </font>
+                          </td>
+
+              </tr>
+
+
+            <tr>
+              <td>
+<b>Download:</b>
+<ul>
+<li> <a href="http://web.archive.org/web/20071006190605/http://z505.com/pascal/quake2fpc/quake2fpc.zip">Quake To Freepascal</a> port
+<p>
+</p></li><li>The Quake 2 (v3.14) demo is available several places, such as here:
+<ul>
+<li> <a href="http://web.archive.org/web/20071006190605/http://downloads.pcworld.com/pub/new/fun_and_games/action/q2314d.exe">http://downloads.pcworld.com/pub/new/fun_and_games/action/q2314d.exe</a>
+</li><li> <a href="http://web.archive.org/web/20071006190605/http://www.unrealnation.net/cgi-sql/file-info.sql/12433">http://www.unrealnation.net/cgi-sql/file-info.sql/12433</a>
+</li></ul>
+
+</li></ul>
+
+<hr>
+
+<b>Notes:</b>
+<p>
+</p><ul>
+<li>First you must download the quake demo (3.14), unless you have quake already installed and it is 3.21 or later.
+<p>
+</p></li><li>Copy the quake2delphi.exe and the quake2fpc.exe from the zip file you downloaded above, in the same place of your old quake exe. Run the two exe's and notice the difference. They are the same portable source code base, but compiled with two different compilers.
+</li></ul>
+<hr>
+<b>Compiling:</b>
+<ul>
+<li>I used LazarusRB Alpha with FPC 2.0.2 but any version of Lazarus or FPC should work along with FPC 2.0.0 and up.
+<p>
+</p></li><li> it will compile with Freepascal 2.0.2 and Delphi 6, but NOT delphi 5. I did some work to get delphi 5 working, but delphi 5 was missing variable paramaters for functions and procedures (VarArgs). 
+<p>
+</p></li><li>Open the Quake2Delphi.DPR file if you want to compile it in delphi. Open the Quake2FPC.LPR file if you want to compile it in Lazarus
+<p>
+</p></li><li>You can compile at the command line, I did, once. However, I've included the lazarus project files which should have all the search paths included, so you might want to use Lazarus. 
+<p>
+</p></li><li>Compile with -Cs1000000 compiler option (stack). Without this, you will get:
+<pre> run time error 202</pre>
+If you are using lazarus, you set this compiler option up using the compiler options dialog window in the OTHER tab (custom options edit box).
+<p>
+</p></li><li>If no quake directory/files are found, you will get error: 
+<pre>"couldn't fallback to software refresh". </pre>
+Download the Quake2 demo, if that is the case. It includes all the data files needed to run the QUAKE2FPC.EXE file. It includes the PAK files (like WAD files) and other data files necessary to run Quake2 exe engine.
+<p>
+</p></li><li>if you see in the source code "PLEASE DON'T MODIFY" I'm not exactly sure if this is true. Go ahead and modify if you want to. It's not my comment, but other people's. I'm not sure if it is still applicable.
+<p>
+</p></li><li>if you make any changes that are compiler specific, please use an {$IFDEF FPC} or similar.
+</li></ul>
+<b>Contributing:</b>
+<ul>
+<li>I'm a text kind of guy, with lots of text and web projects on the go. I just started this project to spur it on. If you want to help don't hesitate. I can put it on SVN for you guys to hack away at, or you can do the same. I will help with the project but can't promise anything - I've got lots of software programming to do, you know ;-)
+</li></ul>
+
+
+
+              </td>
+            </tr>
+          </tbody></table>
+
+
+        </td>
+
+        <td width="20%" valign="top" style="padding:0.4em; padding-top:1.7em; ">
+           <div style="text-align:center; border-style:solid; border-width:1px; padding:0.5em; margin-top:1em;  font-family:verdana; color: #515151;">
+              <font size="1"><b>Fine Print</b></font>
+              <div style="padding:0.2em; text-align:left;">
+
+               <font size="1">
+                 PasWiki contains info about philosophy, psychology, life, hacking, and programming, including many articles about fpc, freepascal, delphi, modern   pascal, database, sql, fads, technology, paradigms, principles, theories, and more.
+               </font><p><font size="1">  
+                 Articles may contain philosophical statements which some may find helpful and encouraging, or offensive and discouraging at times. This website is maintained by Lars, a software consultant &amp; developer in Canada, also known as L505. You can contact <a href="http://web.archive.org/web/20071006190605/http://z505.com/contact.htm">Lars</a> or <a href="http://web.archive.org/web/20071006190605/http://z505.com/contact.htm">Z505 Co.</a> at any time.
+               </font>
+             </p></div>
+
+          </div>
+
+          <div style="padding-top:1em">
+            <a href="http://web.archive.org/web/20071006190605/http://z505.com/cgi-bin/qkcont/qkcont.cgi?p=Powerful-Web-Utilities"><img border="0" src="./PasWiki   Quake2FreePascal_files/pwu-banner1-234x60-powered1f.png"></a>
+          </div>
+
+        </td>
+  </tr>
+
+
+
+</tbody></table>
+</div>
+<!-- FOOTER -->
+
+
+
+
+</center>
+
+
+<script language="Javascript">
+<!--
+
+// FILE ARCHIVED ON 20071006190605 AND RETRIEVED FROM THE
+// INTERNET ARCHIVE ON 20101103123951.
+// JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+// ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+// SECTION 108(a)(3)).
+
+   var sWayBackCGI = "http://web.archive.org/web/20071006190605/";
+
+   function xResolveUrl(url) {
+      var image = new Image();
+      image.src = url;
+      return image.src;
+   }
+   function xLateUrl(aCollection, sProp) {
+      var i = 0;
+      for(i = 0; i < aCollection.length; i++) {
+         var url = aCollection[i][sProp];         if (typeof(url) == "string") { 
+          if (url.indexOf("mailto:") == -1 &&
+             url.indexOf("javascript:") == -1
+             && url.length > 0) {
+            if(url.indexOf("http") != 0) {
+                url = xResolveUrl(url);
+            }
+            url = url.replace('.wstub.archive.org','');
+            aCollection[i][sProp] = sWayBackCGI + url;
+         }
+         }
+      }
+   }
+
+   xLateUrl(document.getElementsByTagName("IMG"),"src");
+   xLateUrl(document.getElementsByTagName("A"),"href");
+   xLateUrl(document.getElementsByTagName("AREA"),"href");
+   xLateUrl(document.getElementsByTagName("OBJECT"),"codebase");
+   xLateUrl(document.getElementsByTagName("OBJECT"),"data");
+   xLateUrl(document.getElementsByTagName("APPLET"),"codebase");
+   xLateUrl(document.getElementsByTagName("APPLET"),"archive");
+   xLateUrl(document.getElementsByTagName("EMBED"),"src");
+   xLateUrl(document.getElementsByTagName("BODY"),"background");
+   xLateUrl(document.getElementsByTagName("TD"),"background");
+   xLateUrl(document.getElementsByTagName("INPUT"),"src");
+   var forms = document.getElementsByTagName("FORM");
+   if (forms) {
+       var j = 0;
+       for (j = 0; j < forms.length; j++) {
+              f = forms[j];
+              if (typeof(f.action)  == "string") {
+                 if(typeof(f.method)  == "string") {
+                     if(typeof(f.method) != "post") {
+                        f.action = sWayBackCGI + f.action;
+                     }
+                  }
+              }
+        }
+    }
+
+
+//-->
+</script>
+
+
+</body></html>

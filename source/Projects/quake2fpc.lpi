@@ -1,0 +1,222 @@
+<?xml version="1.0"?>
+<CONFIG>
+  <ProjectOptions>
+    <PathDelim Value="\"/>
+    <Version Value="7"/>
+    <General>
+      <Flags>
+        <MainUnitHasUsesSectionForAllUnits Value="False"/>
+        <MainUnitHasCreateFormStatements Value="False"/>
+        <MainUnitHasTitleStatement Value="False"/>
+        <LRSInOutputDirectory Value="False"/>
+      </Flags>
+      <MainUnit Value="0"/>
+      <TargetFileExt Value=".exe"/>
+      <Title Value="quake2FPC"/>
+      <ActiveEditorIndexAtStart Value="0"/>
+    </General>
+    <PublishOptions>
+      <Version Value="2"/>
+      <IgnoreBinaries Value="False"/>
+      <IncludeFileFilter Value="*.(pas|pp|inc|lfm|lpr|lrs|lpi|lpk|sh|xml)"/>
+      <ExcludeFileFilter Value="*.(bak|ppu|ppw|o|so);*~;backup"/>
+    </PublishOptions>
+    <RunParams>
+      <local>
+        <FormatVersion Value="1"/>
+        <LaunchingApplication PathPlusParams="\usr\X11R6\bin\xterm -T 'Lazarus Run Output' -e $(LazarusDir)\tools\runwait.sh $(TargetCmdLine)"/>
+      </local>
+    </RunParams>
+    <Units Count="19">
+      <Unit0>
+        <Filename Value="quake2fpc.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="quake2FPC"/>
+        <CursorPos X="65" Y="27"/>
+        <TopLine Value="206"/>
+        <EditorIndex Value="0"/>
+        <UsageCount Value="23"/>
+        <Loaded Value="True"/>
+        <SyntaxHighlighter Value="Delphi"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="C:\PF\bor_old\d6\projects\games\quake\game\q_shared.pas"/>
+        <UnitName Value="q_shared"/>
+        <CursorPos X="17" Y="103"/>
+        <TopLine Value="65"/>
+        <UsageCount Value="10"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="C:\PF\bor_old\d6\projects\games\quake\qcommon\qfiles.pas"/>
+        <UnitName Value="QFiles"/>
+        <CursorPos X="27" Y="529"/>
+        <TopLine Value="491"/>
+        <UsageCount Value="10"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="C:\PF\bor_old\d6\projects\games\quake\qcommon\DelphiTypes.pas"/>
+        <UnitName Value="DelphiTypes"/>
+        <CursorPos X="67" Y="54"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="10"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="C:\PF\bor_old\d6\projects\games\quake\win32\snd_win.pas"/>
+        <UnitName Value="snd_win"/>
+        <CursorPos X="14" Y="62"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="10"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="C:\PF\bor_old\d6\projects\games\quake\client\menu.pas"/>
+        <UnitName Value="menu"/>
+        <CursorPos X="9" Y="2697"/>
+        <TopLine Value="2686"/>
+        <UsageCount Value="10"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="C:\PF\bor_old\d6\projects\games\quake\server\sv_world.pas"/>
+        <UnitName Value="sv_world"/>
+        <CursorPos X="65" Y="663"/>
+        <TopLine Value="658"/>
+        <UsageCount Value="10"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="C:\PF\bor_old\d6\projects\games\quake\client\cl_main.pas"/>
+        <UnitName Value="cl_main"/>
+        <CursorPos X="37" Y="805"/>
+        <TopLine Value="767"/>
+        <UsageCount Value="10"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="C:\PF\bor_old\d6\projects\games\quake\qcommon\Common.pas"/>
+        <CursorPos X="43" Y="594"/>
+        <TopLine Value="556"/>
+        <UsageCount Value="10"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="C:\PF\bor_old\d6\projects\games\quake\win32\net_wins.pas"/>
+        <UnitName Value="net_wins"/>
+        <CursorPos X="3" Y="275"/>
+        <TopLine Value="237"/>
+        <UsageCount Value="10"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="D5Compat.pas"/>
+        <UnitName Value="D5Compat"/>
+        <CursorPos X="53" Y="54"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="10"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="C:\PF\bor_old\d6\projects\games\quake\qcommon\CVar.pas"/>
+        <UnitName Value="CVar"/>
+        <CursorPos X="10" Y="49"/>
+        <TopLine Value="11"/>
+        <UsageCount Value="10"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="C:\PF\bor_old\d6\projects\games\quake\qcommon\Files.pas"/>
+        <UnitName Value="Files"/>
+        <CursorPos X="16" Y="156"/>
+        <TopLine Value="118"/>
+        <UsageCount Value="10"/>
+      </Unit12>
+      <Unit13>
+        <Filename Value="C:\PF\bor_old\d6\projects\games\quake\qcommon\CPas.pas"/>
+        <UnitName Value="CPas"/>
+        <CursorPos X="3" Y="294"/>
+        <TopLine Value="256"/>
+        <UsageCount Value="10"/>
+      </Unit13>
+      <Unit14>
+        <Filename Value="C:\PF\bor_old\d6\projects\games\quake\client\snd_loc.pas"/>
+        <UnitName Value="snd_loc"/>
+        <CursorPos X="1" Y="46"/>
+        <TopLine Value="9"/>
+        <UsageCount Value="10"/>
+      </Unit14>
+      <Unit15>
+        <Filename Value="C:\PF\bor_old\d6\projects\games\quake\client\ref.pas"/>
+        <CursorPos X="3" Y="50"/>
+        <TopLine Value="12"/>
+        <UsageCount Value="10"/>
+      </Unit15>
+      <Unit16>
+        <Filename Value="C:\PF\bor_old\d6\projects\games\quake\client\Client.pas"/>
+        <UnitName Value="Client"/>
+        <CursorPos X="10" Y="33"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="10"/>
+      </Unit16>
+      <Unit17>
+        <Filename Value="C:\PF\bor_old\d6\projects\games\quake\qcommon\CModel.pas"/>
+        <UnitName Value="CModel"/>
+        <CursorPos X="77" Y="2"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="10"/>
+      </Unit17>
+      <Unit18>
+        <Filename Value="C:\PF\bor_old\d6\projects\games\quake\win32\sys_win.pas"/>
+        <UnitName Value="sys_win"/>
+        <CursorPos X="51" Y="49"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="11"/>
+      </Unit18>
+    </Units>
+    <JumpHistory Count="0" HistoryIndex="-1"/>
+  </ProjectOptions>
+  <CompilerOptions>
+    <Version Value="8"/>
+    <PathDelim Value="\"/>
+    <SearchPaths>
+      <OtherUnitFiles Value="..\game\;..\ctf\;..\directx\"/>
+      <UnitOutputDirectory Value="build"/>
+    </SearchPaths>
+    <Parsing>
+      <SyntaxOptions>
+        <SyntaxMode Value="Delphi"/>
+        <UseAnsiStrings Value="True"/>
+      </SyntaxOptions>
+    </Parsing>
+    <CodeGeneration>
+      <SmartLinkUnit Value="True"/>
+    </CodeGeneration>
+    <Linking>
+      <Debugging>
+        <UseLineInfoUnit Value="False"/>
+        <StripSymbols Value="True"/>
+      </Debugging>
+      <LinkSmart Value="True"/>
+    </Linking>
+    <Other>
+      <CustomOptions Value="-Cs1000000
+"/>
+      <CompilerPath Value="$(CompPath)"/>
+    </Other>
+  </CompilerOptions>
+  <Debugging>
+    <BreakPoints Count="3">
+      <Item1>
+        <Source Value="..\..\..\..\..\..\Fu\l1\FPC\projects\synapse\HttpGet\LongEdition\3\UrlGet505_1.pas"/>
+        <Line Value="49"/>
+      </Item1>
+      <Item2>
+        <Source Value="..\..\..\..\..\..\Fu\l1\FPC\projects\psp\SourceViewer\viewsource2.pas"/>
+        <Line Value="23"/>
+      </Item2>
+      <Item3>
+        <Source Value="C:\PF\coLinux\files\pascal\svn\psp\psp-1.4.x-devel\src\units\web.pp"/>
+        <Line Value="458"/>
+      </Item3>
+    </BreakPoints>
+    <Exceptions Count="2">
+      <Item1>
+        <Name Value="ECodetoolError"/>
+      </Item1>
+      <Item2>
+        <Name Value="EFOpenError"/>
+      </Item2>
+    </Exceptions>
+  </Debugging>
+</CONFIG>

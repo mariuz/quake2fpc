@@ -1,0 +1,57 @@
+Project: Quake2 Delphi conversion
+
+File: installation.txt
+
+Authors: 
+  Juha Hartikainen : Delphi port notes
+  Lars (L505) : FPC port notes
+
+------------------------------------------------------------
+
+NOTE:
+
+As the Delphi version of Quake2 engine alters your cfg files
+(just as original Quake2 does as well), we suggest that you
+make a copy of your Quake2 directory before proceeding!
+
+Requiremements:
+
+Quake2 original version updated to 3.20 OR
+Quake2 3.14 demo version.
+
+Delphi6 (personal will do) for building the Delphi port from source code.
+
+FreePascal 2.0.2 for building FPC port from source code
+
+Sourcecode:
+
+Sourcecode is structured just as the original C-language 
+code was. Additionally there is couple directories:
+
+directx\ (contains DirectSound support headers)
+Projects\ (contains Delphi project files)
+Projects\build\ (compiled executables will go here)
+Projects\build\unit\ (temporary compilation files end up here)
+
+When you choose build from Delphi, it will build the
+executables to "build" directory under "Projects"
+directory. You need to then copy then "quake2d.exe"
+to your Quake2 installation directory to play with
+Delphi version. 
+
+NOTE: If you will compile other projects (ref_soft.dll,
+gamex86.dll, ...), they use same filenames than originals.
+Remember to make backup copies of original files!
+
+NOTE: If you are going to debug or modify any of the
+modules, you most likely want to compile modules directly
+over originals (MAKE BACKUPS!), you need to setup additional
+command line parameters when running any of the dlls
+in delphi:
+
+Host Application: point it to quake2d.exe you have just compiled.
+Command Line Parameters: 
++set basedir c:\games\quake2\ +set gamedir c:\games\quake2\baseq2\
+
+You need to ofcourse replace paths to the place where quake2 is
+installed in your computer.

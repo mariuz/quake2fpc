@@ -1,0 +1,27 @@
+Project: Quake2 Delphi conversion
+
+File: status.txt
+
+Authors: 
+  Juha Hartikainen 
+  Lars (L505)
+  
+------------------------------------------------------------
+
+Here is brief description of Delphi conversion of 
+each module in Quake2 Delphi conversion project.
+
+#quake2freepascal.exe:
+Fully converted, compiles and has graphics bugs.
+
+#quake2delphi.exe:
+Fully converted, compiles and has no known bugs.
+
+#ref_soft.dll:
+Fully converted, compiles, starts, but has many bugs.
+
+#ref_gl.dll:
+Fully converted, compiles, starts, almost perfect.
+
+#gamex86.dll:
+Fully converted, compiles, starts, almost perfect.
