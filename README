@@ -27,3 +27,12 @@ Freepascal port:
  
 Developement site: 
  http://sourceforge.net/projects/quake2delphi/
+
+
+
+----------------------------------------------------------
+
+
+porting it to linux , some tips from dbdesigner port
+
+http://www.siliconfuture.net/blog/2010/07/porting-db-designer-fork-to-lazarus-and-the-free-pascal-compiler/

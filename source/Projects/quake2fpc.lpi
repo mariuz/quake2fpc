@@ -32,10 +32,10 @@
         <Filename Value="quake2fpc.lpr"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="quake2FPC"/>
-        <CursorPos X="65" Y="27"/>
-        <TopLine Value="206"/>
+        <CursorPos X="3" Y="78"/>
+        <TopLine Value="1"/>
         <EditorIndex Value="0"/>
-        <UsageCount Value="23"/>
+        <UsageCount Value="25"/>
         <Loaded Value="True"/>
         <SyntaxHighlighter Value="Delphi"/>
       </Unit0>
@@ -164,7 +164,12 @@
         <UsageCount Value="11"/>
       </Unit18>
     </Units>
-    <JumpHistory Count="0" HistoryIndex="-1"/>
+    <JumpHistory Count="1" HistoryIndex="0">
+      <Position1>
+        <Filename Value="quake2fpc.lpr"/>
+        <Caret Line="27" Column="65" TopLine="206"/>
+      </Position1>
+    </JumpHistory>
   </ProjectOptions>
   <CompilerOptions>
     <Version Value="8"/>
