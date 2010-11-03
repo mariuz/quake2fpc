@@ -1,0 +1,67 @@
+Hint: Start of reading config file /etc/fpc.cfg
+Hint: End of reading config file /etc/fpc.cfg
+Free Pascal Compiler version 2.4.0-2 [2010/03/06] for x86_64
+Copyright (c) 1993-2009 by Florian Klaempfl
+Target OS: Linux for x86-64
+Compiling quake2fpc.lpr
+Compiling ../linux/sys_linux.pas
+Compiling ../qcommon/Common.pas
+Compiling ../game/q_shared.pas
+../game/q_shared.pas(125,14) Hint: Type "qboolean" redefinition
+../game/q_shared.pas(126,15) Hint: Type "PQboolean" redefinition
+../game/q_shared.pas(129,17) Hint: Type "multicast_t" redefinition
+../game/q_shared.pas(130,17) Hint: Type "multicast_p" redefinition
+../game/q_shared.pas(142,11) Hint: Type "vec_t" redefinition
+../game/q_shared.pas(143,12) Hint: Type "vec3_t" redefinition
+../game/q_shared.pas(144,12) Hint: Type "vec5_t" redefinition
+../game/q_shared.pas(146,11) Hint: Type "vec_p" redefinition
+../game/q_shared.pas(147,12) Hint: Type "vec3_p" redefinition
+../game/q_shared.pas(148,12) Hint: Type "vec5_p" redefinition
+../game/q_shared.pas(222,14) Hint: Type "cplane_p" redefinition
+../game/q_shared.pas(223,14) Hint: Type "cplane_t" redefinition
+../game/q_shared.pas(224,17) Hint: Type "cplane_arrp" redefinition
+../game/q_shared.pas(324,12) Hint: Type "cvar_p" redefinition
+../game/q_shared.pas(325,12) Hint: Type "cvar_t" redefinition
+../game/q_shared.pas(423,16) Hint: Type "csurface_p" redefinition
+../game/q_shared.pas(424,16) Hint: Type "csurface_t" redefinition
+../game/q_shared.pas(438,20) Hint: Type "entity_event_p" redefinition
+../game/q_shared.pas(439,20) Hint: Type "entity_event_t" redefinition
+../game/q_shared.pas(444,20) Hint: Type "entity_state_p" redefinition
+../game/q_shared.pas(445,20) Hint: Type "entity_state_t" redefinition
+../game/q_shared.pas(451,14) Hint: Type "pmtype_p" redefinition
+../game/q_shared.pas(452,14) Hint: Type "pmtype_t" redefinition
+../game/q_shared.pas(467,19) Hint: Type "pmove_state_p" redefinition
+../game/q_shared.pas(468,19) Hint: Type "pmove_state_t" redefinition
+../game/q_shared.pas(481,20) Hint: Type "player_state_p" redefinition
+../game/q_shared.pas(482,20) Hint: Type "player_state_t" redefinition
+../game/q_shared.pas(494,15) Hint: Type "usercmd_p" redefinition
+../game/q_shared.pas(495,15) Hint: Type "usercmd_t" redefinition
+../game/q_shared.pas(1010,13) Hint: Type "trace_p" redefinition
+../game/q_shared.pas(1011,13) Hint: Type "trace_t" redefinition
+../game/q_shared.pas(1013,13) Hint: Type "pmove_p" redefinition
+../game/q_shared.pas(1014,13) Hint: Type "pmove_t" redefinition
+Compiling ../qcommon/CPas.pas
+../qcommon/CPas.pas(250,16) Warning: Conversion between ordinals and pointers is not portable
+../qcommon/CPas.pas(250,8) Hint: Conversion between ordinals and pointers is not portable
+../qcommon/CPas.pas(253,27) Warning: Conversion between ordinals and pointers is not portable
+../qcommon/CPas.pas(253,19) Hint: Conversion between ordinals and pointers is not portable
+../qcommon/CPas.pas(255,27) Warning: Conversion between ordinals and pointers is not portable
+../qcommon/CPas.pas(255,19) Hint: Conversion between ordinals and pointers is not portable
+../qcommon/CPas.pas(259,20) Warning: Conversion between ordinals and pointers is not portable
+../qcommon/CPas.pas(259,12) Hint: Conversion between ordinals and pointers is not portable
+../qcommon/CPas.pas(260,20) Warning: Conversion between ordinals and pointers is not portable
+../qcommon/CPas.pas(260,12) Hint: Conversion between ordinals and pointers is not portable
+../qcommon/CPas.pas(260,58) Warning: Conversion between ordinals and pointers is not portable
+../qcommon/CPas.pas(260,50) Hint: Conversion between ordinals and pointers is not portable
+../qcommon/CPas.pas(261,33) Warning: Conversion between ordinals and pointers is not portable
+../qcommon/CPas.pas(261,25) Hint: Conversion between ordinals and pointers is not portable
+../qcommon/CPas.pas(250,16) Warning: Converting pointers to signed integers may result in wrong comparison results and range errors, use an unsigned type instead.
+../qcommon/CPas.pas(253,27) Warning: Converting pointers to signed integers may result in wrong comparison results and range errors, use an unsigned type instead.
+../qcommon/CPas.pas(255,27) Warning: Converting pointers to signed integers may result in wrong comparison results and range errors, use an unsigned type instead.
+../qcommon/CPas.pas(259,20) Warning: Converting pointers to signed integers may result in wrong comparison results and range errors, use an unsigned type instead.
+../qcommon/CPas.pas(260,20) Warning: Converting pointers to signed integers may result in wrong comparison results and range errors, use an unsigned type instead.
+../qcommon/CPas.pas(260,58) Warning: Converting pointers to signed integers may result in wrong comparison results and range errors, use an unsigned type instead.
+../qcommon/CPas.pas(261,33) Warning: Converting pointers to signed integers may result in wrong comparison results and range errors, use an unsigned type instead.
+../qcommon/CPas.pas(554,9) Warning: Conversion between ordinals and pointers is not portable
+../qcommon/CPas.pas(554,24) Error: Can't take the address of constant expressions
+../qcommon/CPas.pas(846) Fatal: There were 1 errors compiling module, stopping
