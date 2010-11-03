@@ -73,9 +73,13 @@
 }
 program quake2FPC;
 
+{$ifdef fpc}
+  {$mode delphi}{$H+}
+{$endif}
+
 uses
   SysUtils,
-  {$IFDEF WIN32}
+  {$IFDEF Win32}
   sys_win   in '..\win32\sys_win.pas',
   vid_dll   in '..\win32\vid_dll.pas',
   snd_win   in '..\win32\snd_win.pas',

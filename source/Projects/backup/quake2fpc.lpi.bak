@@ -13,7 +13,7 @@
       <MainUnit Value="0"/>
       <TargetFileExt Value=".exe"/>
       <Title Value="quake2FPC"/>
-      <ActiveEditorIndexAtStart Value="0"/>
+      <ActiveEditorIndexAtStart Value="1"/>
     </General>
     <PublishOptions>
       <Version Value="2"/>
@@ -27,15 +27,15 @@
         <LaunchingApplication PathPlusParams="\usr\X11R6\bin\xterm -T 'Lazarus Run Output' -e $(LazarusDir)\tools\runwait.sh $(TargetCmdLine)"/>
       </local>
     </RunParams>
-    <Units Count="19">
+    <Units Count="22">
       <Unit0>
         <Filename Value="quake2fpc.lpr"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="quake2FPC"/>
-        <CursorPos X="65" Y="27"/>
-        <TopLine Value="206"/>
+        <CursorPos X="9" Y="78"/>
+        <TopLine Value="124"/>
         <EditorIndex Value="0"/>
-        <UsageCount Value="23"/>
+        <UsageCount Value="26"/>
         <Loaded Value="True"/>
         <SyntaxHighlighter Value="Delphi"/>
       </Unit0>
@@ -163,8 +163,51 @@
         <TopLine Value="1"/>
         <UsageCount Value="11"/>
       </Unit18>
+      <Unit19>
+        <Filename Value="..\client\asm_i386.pas"/>
+        <UnitName Value="asm_i386"/>
+        <CursorPos X="1" Y="1"/>
+        <TopLine Value="96"/>
+        <UsageCount Value="10"/>
+      </Unit19>
+      <Unit20>
+        <Filename Value="..\game\q_shared_add.pas"/>
+        <UnitName Value="q_shared_add"/>
+        <CursorPos X="1" Y="1"/>
+        <TopLine Value="143"/>
+        <EditorIndex Value="2"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+        <SyntaxHighlighter Value="Delphi"/>
+      </Unit20>
+      <Unit21>
+        <Filename Value="..\linux\sys_linux.pas"/>
+        <UnitName Value="sys_linux"/>
+        <CursorPos X="21" Y="31"/>
+        <TopLine Value="13"/>
+        <EditorIndex Value="1"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit21>
     </Units>
-    <JumpHistory Count="0" HistoryIndex="-1"/>
+    <JumpHistory Count="4" HistoryIndex="3">
+      <Position1>
+        <Filename Value="quake2fpc.lpr"/>
+        <Caret Line="78" Column="3" TopLine="37"/>
+      </Position1>
+      <Position2>
+        <Filename Value="quake2fpc.lpr"/>
+        <Caret Line="82" Column="12" TopLine="61"/>
+      </Position2>
+      <Position3>
+        <Filename Value="quake2fpc.lpr"/>
+        <Caret Line="84" Column="10" TopLine="49"/>
+      </Position3>
+      <Position4>
+        <Filename Value="..\game\q_shared_add.pas"/>
+        <Caret Line="1" Column="1" TopLine="1"/>
+      </Position4>
+    </JumpHistory>
   </ProjectOptions>
   <CompilerOptions>
     <Version Value="8"/>
