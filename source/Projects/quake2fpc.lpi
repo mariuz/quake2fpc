@@ -13,6 +13,7 @@
       <MainUnit Value="0"/>
       <TargetFileExt Value=".exe"/>
       <Title Value="quake2FPC"/>
+      <ActiveEditorIndexAtStart Value="0"/>
     </General>
     <PublishOptions>
       <Version Value="2"/>
@@ -32,8 +33,10 @@
         <IsPartOfProject Value="True"/>
         <UnitName Value="quake2FPC"/>
         <CursorPos X="9" Y="78"/>
-        <TopLine Value="124"/>
+        <TopLine Value="78"/>
+        <EditorIndex Value="0"/>
         <UsageCount Value="26"/>
+        <Loaded Value="True"/>
         <SyntaxHighlighter Value="Delphi"/>
       </Unit0>
       <Unit1>

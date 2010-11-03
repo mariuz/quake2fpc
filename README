@@ -1,17 +1,32 @@
 
-Project: Quake2 FreePascal/Delphi conversion
+Project: Quake2 FreePascal conversion
 
-File: readme.txt
+porting it to linux 
 
-Authors:
-  Juha Hartikainen : Delphi port notes
-  Lars (L505) : FPC port notes
+got the first issue
+
+http://wiki.freepascal.org/libc_unit
+
+cat source/Projects/sys_linux.err 
+Hint: Start of reading config file /etc/fpc.cfg
+Hint: End of reading config file /etc/fpc.cfg
+Free Pascal Compiler version 2.4.0-2 [2010/03/06] for x86_64
+Copyright (c) 1993-2009 by Florian Klaempfl
+Target OS: Linux for x86-64
+Compiling quake2fpc.lpr
+Compiling ../linux/sys_linux.pas
+Compiling /home/mariuz/work/quake2fpc/source/game/q_shared_add.pas
+/home/mariuz/work/quake2fpc/source/game/q_shared_add.pas(242,35) Hint: C arrays are passed by reference
+/home/mariuz/work/quake2fpc/source/game/q_shared_add.pas(1,1) Fatal: Can't find unit libc used by sys_linux
+
+
+
 
 ------------------------------------------------------------
 
 Introduction:
 
-This is Delphi/Freepascal conversion of Quake2 sourcecode.
+This is Freepascal conversion of Quake2 sourcecode.
 
 FreePascal notes:
   See the Quake2FPC.LPR project file for comments about 
@@ -22,17 +37,12 @@ WWW-sites:
 Main Delphi project site: 
  http://www.sulaco.co.za/quake2/
 
-Freepascal port:
+old stalled Freepascal port:
  http://z505.com
  
-Developement site: 
+old stalled Developement site: 
  http://sourceforge.net/projects/quake2delphi/
 
 
 
-----------------------------------------------------------
 
-
-porting it to linux , some tips from dbdesigner port
-
-http://www.siliconfuture.net/blog/2010/07/porting-db-designer-fork-to-lazarus-and-the-free-pascal-compiler/
