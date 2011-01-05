@@ -152,7 +152,7 @@ end;
 
 procedure Sys_Mkdir(path: pchar);
 begin
-  mkdir(path);// $1FF);
+  FpMkdir(path ,0777);// $1FF);
 end;
 
 
@@ -161,7 +161,7 @@ var {was static}
 findbase: array [0..Pred(MAX_OSPATH)] of char;
 findpath: array [0..Pred(MAX_OSPATH)] of char; 
 findpattern: array [0..Pred(MAX_OSPATH)] of char; 
-fdir: PDirectoryStream; //pDIR;
+fdir: pDIR; //pDIR;
 
 
 function CompareAttributes(path: pchar;  name: pchar;  musthave: Cardinal;  canthave: Cardinal): qboolean;
