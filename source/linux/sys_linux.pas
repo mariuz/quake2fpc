@@ -28,7 +28,7 @@ Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
 
 interface
 
-uses q_shared_add , SysUtils , Common ;
+uses q_shared_add , SysUtils , Common ,unix;
 
 {.$include <unistd.h>}
 {.$include <signal.h>}
@@ -57,7 +57,7 @@ uses q_shared_add , SysUtils , Common ;
 {.$include "../linux/rw_linux.h"}
 
 var
-stdout : PIOFile ; // added by FAB
+stdout : ^FILE ; // from old libc unit and seems to be ^IO_FILE
 nostdout: cvar_p;
 sys_frame_time: Cardinal ;//UINT;
 saved_euid: uid_t;
@@ -89,7 +89,7 @@ function Sys_GetGameAPI(parms: Pointer): Pointer ;
 implementation
 
 uses q_shlinux,q_shared,cpas,cl_main,Cvar,Classes ,
-      Files,SysUtils , vid_so ;
+      Files, vid_so ;
 
 procedure Sys_ConsoleOutput(_string: pchar);
 begin

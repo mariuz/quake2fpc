@@ -34,8 +34,6 @@ interface
 {.$include "../qcommon/qcommon.h"}
 
 (*===============================================================================*)
-uses libc;
-
 var
 membase: pbyte;
 maxhunksize: integer; 
@@ -45,14 +43,14 @@ curtime: integer;  // global var
 
 function Sys_Milliseconds : integer;
 procedure Sys_Mkdir(path: pchar);
-function Sys_FindFirst(path: pchar;  musthave: UINT;  canhave: UINT): pchar;
-function Sys_FindNext(musthave: UINT;  canhave: UINT): pchar;
+function Sys_FindFirst(path: pchar;  musthave: Cardinal;  canhave: Cardinal): pchar;
+function Sys_FindNext(musthave: Cardinal;  canhave: Cardinal): pchar;
 procedure Sys_FindClose ;
 
 
 implementation
 
-uses SysUtils, q_shared_add, q_shared, Common, Cpas, sys_linux , glob;
+uses SysUtils, q_shared_add, q_shared, Common, CPas, sys_linux , glob , baseunix, unix ;
 
 
 function Hunk_Begin(maxsize: integer):integer;
@@ -60,7 +58,7 @@ begin
   (* reserve a huge chunk of memory, but don't commit any yet*)
   maxhunksize:= maxsize + sizeof(integer); 
   curhunksize:= 0;
-  membase:= mmap(nil, maxhunksize, (PROT_READ or PROT_WRITE),(MAP_PRIVATE or MAP_ANONYMOUS), -1, 0);
+  membase:= fpmmap(nil, maxhunksize, (PROT_READ or PROT_WRITE),(MAP_PRIVATE or MAP_ANONYMOUS), -1, 0);
   
   if (membase = nil)or(membase = PByte(-1)) then
   Sys_Error('unable to virtual allocate %d bytes',[maxsize]);
@@ -177,7 +175,7 @@ findpattern: array [0..Pred(MAX_OSPATH)] of char;
 fdir: PDirectoryStream; //pDIR;
 
 
-function CompareAttributes(path: pchar;  name: pchar;  musthave: UINT;  canthave: UINT): qboolean; 
+function CompareAttributes(path: pchar;  name: pchar;  musthave: Cardinal;  canthave: Cardinal): qboolean;
 var
 fn: array [0..Pred(MAX_OSPATH)] of char;
 st : TStatBuf ;
@@ -219,7 +217,7 @@ end;
 
 
 
-function Sys_FindFirst(path: pchar;  musthave: UINT;  canhave: UINT): pchar;
+function Sys_FindFirst(path: pchar;  musthave: Cardinal;  canhave: Cardinal): pchar;
 var
 p: pchar;
 d : PDirEnt;
@@ -277,7 +275,7 @@ begin
 end;
 
 
-function Sys_FindNext(musthave: UINT;  canhave: UINT): pchar;
+function Sys_FindNext(musthave: Cardinal;  canhave: Cardinal): pchar;
 var
 d : PDirEnt;
 begin
