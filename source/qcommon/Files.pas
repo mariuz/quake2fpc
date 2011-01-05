@@ -93,7 +93,7 @@ uses
 //DELPHI 5
 //  D5Compat,
   {$IFDEF LINUX}
-  Libc,
+  SysUtils,
   {$ENDIF}
   CVar {, ref};
 
@@ -141,7 +141,6 @@ implementation
 
 uses
   CPas,
-  SysUtils,
   q_Shared,
   qfiles,
   {$IFDEF WIN32}

@@ -247,7 +247,7 @@ var
 begin
   Lo := Left;
   Hi := Right;
-  P := Pointer(Integer(base) + ((Lo + Hi) div 2) * width);
+  P := Pointer(PtrInt(base) + ((Lo + Hi) div 2) * width);
   Move(P^, TempBuffer2^, width);
   repeat
     while compare(Pointer(Integer(base) + Lo * width), TempBuffer2) < 0 do
@@ -551,7 +551,7 @@ begin
   begin
     if PChar(Result)[0] = l then
       Exit;
-    Inc(Integer(Result));
+    Inc(ptruint(Result));
     Dec(len);
   end;
   Result := NULL;
