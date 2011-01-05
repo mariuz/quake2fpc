@@ -50,7 +50,7 @@ procedure Sys_FindClose ;
 
 implementation
 
-uses SysUtils, q_shared_add, q_shared, Common, CPas, sys_linux , glob , baseunix, unix ;
+uses SysUtils, q_shared_add, q_shared, Common, cpas, sys_linux , glob , baseunix, unix ;
 
 
 function Hunk_Begin(maxsize: integer):integer;
@@ -89,7 +89,7 @@ function Hunk_End(): integer;
 var
 n: pbyte; 
 begin
-  n:= mremap(membase,maxhunksize,curhunksize+sizeof(integer),0); 
+  n:= fpremap(membase,maxhunksize,curhunksize+sizeof(integer),0);
   if n <> membase then
   Sys_Error('Hunk_End:  Could not remap virtual block (%d)', [errno]); 
   //*({!!!a type cast? =>} {pinteger(}membase):=curhunksize+sizeof(int);
@@ -108,7 +108,7 @@ begin
     //m:= ({!!!a type cast? =>} {pbyte(}base)-sizeof(int);
     m := PByte(Integer(base) - sizeof(Integer));
     //if munmap(m,*({!!!a type cast? =>} {pinteger(}m))
-    if munmap (m , Integer(m))<> 0 then
+    if fpmunmap (m , Integer(m))<> 0 then
     Sys_Error('Hunk_Free: munmap failed (%d)',[errno]); 
   end;
 end;
@@ -155,17 +155,6 @@ begin
   __mkdir(path ,0777);// $1FF);
 end;
 
-/// disabled by FAB not used
-(*
-function strlwr(s: pchar): pchar;
-begin
-  while s^ <> #0 do
-  begin
-     s^ := Chr(tolower(StrtoInt(s^)));
-    inc(s);
-  end;
-end;
-*)
 
 (*============================================*)
 var {was static}
