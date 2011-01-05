@@ -552,7 +552,7 @@ end;
 Sys_MakeCodeWriteable
 ================
 *)
-{
+  {
 procedure Sys_MakeCodeWriteable(startaddr: UINT;  length: UINT); 
 var
 r: integer; 

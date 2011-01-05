@@ -152,7 +152,7 @@ end;
 
 procedure Sys_Mkdir(path: pchar);
 begin
-  __mkdir(path ,0777);// $1FF);
+  mkdir(path);// $1FF);
 end;
 
 
