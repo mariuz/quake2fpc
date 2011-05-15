@@ -1,4 +1,3 @@
-
 Project: Quake2 Pure FreePascal conversion 
 
 porting it to linux 
@@ -7,6 +6,10 @@ The first issue was replacing the libc with something more portable
 http://wiki.freepascal.org/libc_unit
 
 Pointers arhithmetic is not quite 64bit safe and it will require a lot of cleanup
+
+Here is one guide 
+
+http://www.stack.nl/~marcov/porting.pdf
 
 
 
