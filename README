@@ -1,24 +1,15 @@
-
-Project: Quake2 FreePascal conversion
+Project: Quake2 Pure FreePascal conversion 
 
 porting it to linux 
-
-got the first issue
+The first issue was replacing the libc with something more portable 
 
 http://wiki.freepascal.org/libc_unit
 
-cat source/Projects/sys_linux.err 
-Hint: Start of reading config file /etc/fpc.cfg
-Hint: End of reading config file /etc/fpc.cfg
-Free Pascal Compiler version 2.4.0-2 [2010/03/06] for x86_64
-Copyright (c) 1993-2009 by Florian Klaempfl
-Target OS: Linux for x86-64
-Compiling quake2fpc.lpr
-Compiling ../linux/sys_linux.pas
-Compiling /home/mariuz/work/quake2fpc/source/game/q_shared_add.pas
-/home/mariuz/work/quake2fpc/source/game/q_shared_add.pas(242,35) Hint: C arrays are passed by reference
-/home/mariuz/work/quake2fpc/source/game/q_shared_add.pas(1,1) Fatal: Can't find unit libc used by sys_linux
+Pointers arhithmetic is not quite 64bit safe and it will require a lot of cleanup
 
+Here is one guide 
+
+http://www.stack.nl/~marcov/porting.pdf
 
 
 

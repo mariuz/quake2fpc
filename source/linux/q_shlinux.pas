@@ -34,8 +34,6 @@ interface
 {.$include "../qcommon/qcommon.h"}
 
 (*===============================================================================*)
-uses libc;
-
 var
 membase: pbyte;
 maxhunksize: integer; 
@@ -45,14 +43,14 @@ curtime: integer;  // global var
 
 function Sys_Milliseconds : integer;
 procedure Sys_Mkdir(path: pchar);
-function Sys_FindFirst(path: pchar;  musthave: UINT;  canhave: UINT): pchar;
-function Sys_FindNext(musthave: UINT;  canhave: UINT): pchar;
+function Sys_FindFirst(path: pchar;  musthave: Cardinal;  canhave: Cardinal): pchar;
+function Sys_FindNext(musthave: Cardinal;  canhave: Cardinal): pchar;
 procedure Sys_FindClose ;
 
 
 implementation
 
-uses SysUtils, q_shared_add, q_shared, Common, Cpas, sys_linux , glob;
+uses SysUtils, q_shared_add, q_shared, Common, cpas, sys_linux , glob , baseunix, unix ;
 
 
 function Hunk_Begin(maxsize: integer):integer;
@@ -60,7 +58,7 @@ begin
   (* reserve a huge chunk of memory, but don't commit any yet*)
   maxhunksize:= maxsize + sizeof(integer); 
   curhunksize:= 0;
-  membase:= mmap(nil, maxhunksize, (PROT_READ or PROT_WRITE),(MAP_PRIVATE or MAP_ANONYMOUS), -1, 0);
+  membase:= fpmmap(nil, maxhunksize, (PROT_READ or PROT_WRITE),(MAP_PRIVATE or MAP_ANONYMOUS), -1, 0);
   
   if (membase = nil)or(membase = PByte(-1)) then
   Sys_Error('unable to virtual allocate %d bytes',[maxsize]);
@@ -91,7 +89,7 @@ function Hunk_End(): integer;
 var
 n: pbyte; 
 begin
-  n:= mremap(membase,maxhunksize,curhunksize+sizeof(integer),0); 
+  n:= fpremap(membase,maxhunksize,curhunksize+sizeof(integer),0);
   if n <> membase then
   Sys_Error('Hunk_End:  Could not remap virtual block (%d)', [errno]); 
   //*({!!!a type cast? =>} {pinteger(}membase):=curhunksize+sizeof(int);
@@ -110,7 +108,7 @@ begin
     //m:= ({!!!a type cast? =>} {pbyte(}base)-sizeof(int);
     m := PByte(Integer(base) - sizeof(Integer));
     //if munmap(m,*({!!!a type cast? =>} {pinteger(}m))
-    if munmap (m , Integer(m))<> 0 then
+    if fpmunmap (m , Integer(m))<> 0 then
     Sys_Error('Hunk_Free: munmap failed (%d)',[errno]); 
   end;
 end;
@@ -154,30 +152,19 @@ end;
 
 procedure Sys_Mkdir(path: pchar);
 begin
-  __mkdir(path ,0777);// $1FF);
+  FpMkdir(path ,0777);// $1FF);
 end;
 
-/// disabled by FAB not used
-(*
-function strlwr(s: pchar): pchar;
-begin
-  while s^ <> #0 do
-  begin
-     s^ := Chr(tolower(StrtoInt(s^)));
-    inc(s);
-  end;
-end;
-*)
 
 (*============================================*)
 var {was static}
 findbase: array [0..Pred(MAX_OSPATH)] of char;
 findpath: array [0..Pred(MAX_OSPATH)] of char; 
 findpattern: array [0..Pred(MAX_OSPATH)] of char; 
-fdir: PDirectoryStream; //pDIR;
+fdir: pDIR; //pDIR;
 
 
-function CompareAttributes(path: pchar;  name: pchar;  musthave: UINT;  canthave: UINT): qboolean; 
+function CompareAttributes(path: pchar;  name: pchar;  musthave: Cardinal;  canthave: Cardinal): qboolean;
 var
 fn: array [0..Pred(MAX_OSPATH)] of char;
 st : TStatBuf ;
@@ -219,7 +206,7 @@ end;
 
 
 
-function Sys_FindFirst(path: pchar;  musthave: UINT;  canhave: UINT): pchar;
+function Sys_FindFirst(path: pchar;  musthave: Cardinal;  canhave: Cardinal): pchar;
 var
 p: pchar;
 d : PDirEnt;
@@ -277,7 +264,7 @@ begin
 end;
 
 
-function Sys_FindNext(musthave: UINT;  canhave: UINT): pchar;
+function Sys_FindNext(musthave: Cardinal;  canhave: Cardinal): pchar;
 var
 d : PDirEnt;
 begin

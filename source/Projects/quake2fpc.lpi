@@ -13,7 +13,11 @@
       <MainUnit Value="0"/>
       <TargetFileExt Value=".exe"/>
       <Title Value="quake2FPC"/>
+<<<<<<< HEAD
       <ActiveWindowIndexAtStart Value="0"/>
+=======
+      <ActiveEditorIndexAtStart Value="1"/>
+>>>>>>> 0c4caab0417c2ec96ae7e8ee20fc2a435b560750
     </General>
     <VersionInfo>
       <StringTable Comments="" CompanyName="" FileDescription="" FileVersion="0.0.0.0" InternalName="" LegalCopyright="" LegalTrademarks="" OriginalFilename="" ProductName="" ProductVersion="0.0.0.0"/>
@@ -30,11 +34,16 @@
         <LaunchingApplication PathPlusParams="\usr\X11R6\bin\xterm -T 'Lazarus Run Output' -e $(LazarusDir)\tools\runwait.sh $(TargetCmdLine)"/>
       </local>
     </RunParams>
+<<<<<<< HEAD
     <Units Count="24">
+=======
+    <Units Count="32">
+>>>>>>> 0c4caab0417c2ec96ae7e8ee20fc2a435b560750
       <Unit0>
         <Filename Value="quake2fpc.lpr"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="quake2FPC"/>
+<<<<<<< HEAD
         <EditorIndex Value="0"/>
         <WindowIndex Value="0"/>
         <TopLine Value="134"/>
@@ -42,141 +51,224 @@
         <UsageCount Value="27"/>
         <Loaded Value="True"/>
         <DefaultSyntaxHighlighter Value="Delphi"/>
+=======
+        <CursorPos X="9" Y="78"/>
+        <TopLine Value="78"/>
+        <UsageCount Value="37"/>
+        <SyntaxHighlighter Value="Delphi"/>
+>>>>>>> 0c4caab0417c2ec96ae7e8ee20fc2a435b560750
       </Unit0>
       <Unit1>
         <Filename Value="C:\PF\bor_old\d6\projects\games\quake\game\q_shared.pas"/>
         <UnitName Value="q_shared"/>
         <TopLine Value="65"/>
+<<<<<<< HEAD
         <CursorPos X="17" Y="103"/>
         <UsageCount Value="10"/>
+=======
+        <UsageCount Value="9"/>
+>>>>>>> 0c4caab0417c2ec96ae7e8ee20fc2a435b560750
       </Unit1>
       <Unit2>
         <Filename Value="C:\PF\bor_old\d6\projects\games\quake\qcommon\qfiles.pas"/>
         <UnitName Value="QFiles"/>
         <TopLine Value="491"/>
+<<<<<<< HEAD
         <CursorPos X="27" Y="529"/>
         <UsageCount Value="10"/>
+=======
+        <UsageCount Value="9"/>
+>>>>>>> 0c4caab0417c2ec96ae7e8ee20fc2a435b560750
       </Unit2>
       <Unit3>
         <Filename Value="C:\PF\bor_old\d6\projects\games\quake\qcommon\DelphiTypes.pas"/>
         <UnitName Value="DelphiTypes"/>
         <TopLine Value="1"/>
+<<<<<<< HEAD
         <CursorPos X="67" Y="54"/>
         <UsageCount Value="10"/>
+=======
+        <UsageCount Value="9"/>
+>>>>>>> 0c4caab0417c2ec96ae7e8ee20fc2a435b560750
       </Unit3>
       <Unit4>
         <Filename Value="C:\PF\bor_old\d6\projects\games\quake\win32\snd_win.pas"/>
         <UnitName Value="snd_win"/>
         <TopLine Value="1"/>
+<<<<<<< HEAD
         <CursorPos X="14" Y="62"/>
         <UsageCount Value="10"/>
+=======
+        <UsageCount Value="9"/>
+>>>>>>> 0c4caab0417c2ec96ae7e8ee20fc2a435b560750
       </Unit4>
       <Unit5>
         <Filename Value="C:\PF\bor_old\d6\projects\games\quake\client\menu.pas"/>
         <UnitName Value="menu"/>
         <TopLine Value="2686"/>
+<<<<<<< HEAD
         <CursorPos X="9" Y="2697"/>
         <UsageCount Value="10"/>
+=======
+        <UsageCount Value="9"/>
+>>>>>>> 0c4caab0417c2ec96ae7e8ee20fc2a435b560750
       </Unit5>
       <Unit6>
         <Filename Value="C:\PF\bor_old\d6\projects\games\quake\server\sv_world.pas"/>
         <UnitName Value="sv_world"/>
         <TopLine Value="658"/>
+<<<<<<< HEAD
         <CursorPos X="65" Y="663"/>
         <UsageCount Value="10"/>
+=======
+        <UsageCount Value="9"/>
+>>>>>>> 0c4caab0417c2ec96ae7e8ee20fc2a435b560750
       </Unit6>
       <Unit7>
         <Filename Value="C:\PF\bor_old\d6\projects\games\quake\client\cl_main.pas"/>
         <UnitName Value="cl_main"/>
         <TopLine Value="767"/>
+<<<<<<< HEAD
         <CursorPos X="37" Y="805"/>
         <UsageCount Value="10"/>
+=======
+        <UsageCount Value="9"/>
+>>>>>>> 0c4caab0417c2ec96ae7e8ee20fc2a435b560750
       </Unit7>
       <Unit8>
         <Filename Value="C:\PF\bor_old\d6\projects\games\quake\qcommon\Common.pas"/>
         <TopLine Value="556"/>
+<<<<<<< HEAD
         <CursorPos X="43" Y="594"/>
         <UsageCount Value="10"/>
+=======
+        <UsageCount Value="9"/>
+>>>>>>> 0c4caab0417c2ec96ae7e8ee20fc2a435b560750
       </Unit8>
       <Unit9>
         <Filename Value="C:\PF\bor_old\d6\projects\games\quake\win32\net_wins.pas"/>
         <UnitName Value="net_wins"/>
         <TopLine Value="237"/>
+<<<<<<< HEAD
         <CursorPos X="3" Y="275"/>
         <UsageCount Value="10"/>
+=======
+        <UsageCount Value="9"/>
+>>>>>>> 0c4caab0417c2ec96ae7e8ee20fc2a435b560750
       </Unit9>
       <Unit10>
         <Filename Value="D5Compat.pas"/>
         <UnitName Value="D5Compat"/>
         <TopLine Value="1"/>
+<<<<<<< HEAD
         <CursorPos X="53" Y="54"/>
         <UsageCount Value="10"/>
+=======
+        <UsageCount Value="9"/>
+>>>>>>> 0c4caab0417c2ec96ae7e8ee20fc2a435b560750
       </Unit10>
       <Unit11>
         <Filename Value="C:\PF\bor_old\d6\projects\games\quake\qcommon\CVar.pas"/>
         <UnitName Value="CVar"/>
         <TopLine Value="11"/>
+<<<<<<< HEAD
         <CursorPos X="10" Y="49"/>
         <UsageCount Value="10"/>
+=======
+        <UsageCount Value="9"/>
+>>>>>>> 0c4caab0417c2ec96ae7e8ee20fc2a435b560750
       </Unit11>
       <Unit12>
         <Filename Value="C:\PF\bor_old\d6\projects\games\quake\qcommon\Files.pas"/>
         <UnitName Value="Files"/>
         <TopLine Value="118"/>
+<<<<<<< HEAD
         <CursorPos X="16" Y="156"/>
         <UsageCount Value="10"/>
+=======
+        <UsageCount Value="9"/>
+>>>>>>> 0c4caab0417c2ec96ae7e8ee20fc2a435b560750
       </Unit12>
       <Unit13>
         <Filename Value="C:\PF\bor_old\d6\projects\games\quake\qcommon\CPas.pas"/>
         <UnitName Value="CPas"/>
         <TopLine Value="256"/>
+<<<<<<< HEAD
         <CursorPos X="3" Y="294"/>
         <UsageCount Value="10"/>
+=======
+        <UsageCount Value="9"/>
+>>>>>>> 0c4caab0417c2ec96ae7e8ee20fc2a435b560750
       </Unit13>
       <Unit14>
         <Filename Value="C:\PF\bor_old\d6\projects\games\quake\client\snd_loc.pas"/>
         <UnitName Value="snd_loc"/>
         <TopLine Value="9"/>
+<<<<<<< HEAD
         <CursorPos X="1" Y="46"/>
         <UsageCount Value="10"/>
+=======
+        <UsageCount Value="9"/>
+>>>>>>> 0c4caab0417c2ec96ae7e8ee20fc2a435b560750
       </Unit14>
       <Unit15>
         <Filename Value="C:\PF\bor_old\d6\projects\games\quake\client\ref.pas"/>
         <TopLine Value="12"/>
+<<<<<<< HEAD
         <CursorPos X="3" Y="50"/>
         <UsageCount Value="10"/>
+=======
+        <UsageCount Value="9"/>
+>>>>>>> 0c4caab0417c2ec96ae7e8ee20fc2a435b560750
       </Unit15>
       <Unit16>
         <Filename Value="C:\PF\bor_old\d6\projects\games\quake\client\Client.pas"/>
         <UnitName Value="Client"/>
         <TopLine Value="1"/>
+<<<<<<< HEAD
         <CursorPos X="10" Y="33"/>
         <UsageCount Value="10"/>
+=======
+        <UsageCount Value="9"/>
+>>>>>>> 0c4caab0417c2ec96ae7e8ee20fc2a435b560750
       </Unit16>
       <Unit17>
         <Filename Value="C:\PF\bor_old\d6\projects\games\quake\qcommon\CModel.pas"/>
         <UnitName Value="CModel"/>
         <TopLine Value="1"/>
+<<<<<<< HEAD
         <CursorPos X="77" Y="2"/>
         <UsageCount Value="10"/>
+=======
+        <UsageCount Value="9"/>
+>>>>>>> 0c4caab0417c2ec96ae7e8ee20fc2a435b560750
       </Unit17>
       <Unit18>
         <Filename Value="C:\PF\bor_old\d6\projects\games\quake\win32\sys_win.pas"/>
         <UnitName Value="sys_win"/>
         <TopLine Value="1"/>
+<<<<<<< HEAD
         <CursorPos X="51" Y="49"/>
         <UsageCount Value="11"/>
+=======
+        <UsageCount Value="10"/>
+>>>>>>> 0c4caab0417c2ec96ae7e8ee20fc2a435b560750
       </Unit18>
       <Unit19>
         <Filename Value="..\client\asm_i386.pas"/>
         <UnitName Value="asm_i386"/>
         <TopLine Value="96"/>
+<<<<<<< HEAD
         <CursorPos X="1" Y="1"/>
         <UsageCount Value="10"/>
+=======
+        <UsageCount Value="9"/>
+>>>>>>> 0c4caab0417c2ec96ae7e8ee20fc2a435b560750
       </Unit19>
       <Unit20>
         <Filename Value="..\game\q_shared_add.pas"/>
         <UnitName Value="q_shared_add"/>
+<<<<<<< HEAD
         <EditorIndex Value="4"/>
         <WindowIndex Value="0"/>
         <TopLine Value="88"/>
@@ -184,10 +276,17 @@
         <UsageCount Value="10"/>
         <Loaded Value="True"/>
         <DefaultSyntaxHighlighter Value="Delphi"/>
+=======
+        <CursorPos X="1" Y="1"/>
+        <TopLine Value="206"/>
+        <UsageCount Value="9"/>
+        <SyntaxHighlighter Value="Delphi"/>
+>>>>>>> 0c4caab0417c2ec96ae7e8ee20fc2a435b560750
       </Unit20>
       <Unit21>
         <Filename Value="..\linux\sys_linux.pas"/>
         <UnitName Value="sys_linux"/>
+<<<<<<< HEAD
         <EditorIndex Value="1"/>
         <WindowIndex Value="0"/>
         <TopLine Value="16"/>
@@ -249,6 +348,222 @@
         <Filename Value="..\qcommon\Files.pas"/>
         <Caret Line="1" Column="1" TopLine="1"/>
       </Position7>
+=======
+        <CursorPos X="3" Y="555"/>
+        <TopLine Value="470"/>
+        <UsageCount Value="14"/>
+      </Unit21>
+      <Unit22>
+        <Filename Value="..\qcommon\CPas.pas"/>
+        <UnitName Value="CPas"/>
+        <CursorPos X="87" Y="96"/>
+        <TopLine Value="83"/>
+        <EditorIndex Value="0"/>
+        <UsageCount Value="15"/>
+        <Loaded Value="True"/>
+      </Unit22>
+      <Unit23>
+        <Filename Value="..\game\q_shared.pas"/>
+        <UnitName Value="q_shared"/>
+        <CursorPos X="12" Y="148"/>
+        <TopLine Value="2459"/>
+        <EditorIndex Value="9"/>
+        <UsageCount Value="15"/>
+        <Loaded Value="True"/>
+        <SyntaxHighlighter Value="Delphi"/>
+      </Unit23>
+      <Unit24>
+        <Filename Value="..\..\..\..\..\..\usr\share\fpcsrc\2.4.0\rtl\inc\systemh.inc"/>
+        <CursorPos X="3" Y="267"/>
+        <TopLine Value="9"/>
+        <EditorIndex Value="8"/>
+        <UsageCount Value="14"/>
+        <Loaded Value="True"/>
+      </Unit24>
+      <Unit25>
+        <Filename Value="..\qcommon\CVar.pas"/>
+        <UnitName Value="CVar"/>
+        <CursorPos X="3" Y="195"/>
+        <TopLine Value="159"/>
+        <EditorIndex Value="6"/>
+        <UsageCount Value="14"/>
+        <Loaded Value="True"/>
+      </Unit25>
+      <Unit26>
+        <Filename Value="..\qcommon\Files.pas"/>
+        <UnitName Value="Files"/>
+        <CursorPos X="5" Y="143"/>
+        <TopLine Value="120"/>
+        <EditorIndex Value="7"/>
+        <UsageCount Value="13"/>
+        <Loaded Value="True"/>
+      </Unit26>
+      <Unit27>
+        <Filename Value="..\..\..\..\..\..\usr\share\fpcsrc\2.4.0\rtl\unix\unix.pp"/>
+        <UnitName Value="Unix"/>
+        <CursorPos X="1" Y="279"/>
+        <TopLine Value="231"/>
+        <EditorIndex Value="5"/>
+        <UsageCount Value="13"/>
+        <Loaded Value="True"/>
+      </Unit27>
+      <Unit28>
+        <Filename Value="..\linux\q_shlinux.pas"/>
+        <UnitName Value="q_shlinux"/>
+        <CursorPos X="48" Y="164"/>
+        <TopLine Value="140"/>
+        <EditorIndex Value="1"/>
+        <UsageCount Value="12"/>
+        <Loaded Value="True"/>
+      </Unit28>
+      <Unit29>
+        <Filename Value="..\..\..\..\..\..\usr\share\fpcsrc\2.4.0\rtl\unix\sysutils.pp"/>
+        <UnitName Value="sysutils"/>
+        <CursorPos X="17" Y="1099"/>
+        <TopLine Value="1051"/>
+        <EditorIndex Value="4"/>
+        <UsageCount Value="11"/>
+        <Loaded Value="True"/>
+      </Unit29>
+      <Unit30>
+        <Filename Value="..\..\..\..\..\..\usr\share\fpcsrc\2.4.0\rtl\unix\aliasptp.inc"/>
+        <CursorPos X="5" Y="65"/>
+        <TopLine Value="40"/>
+        <EditorIndex Value="2"/>
+        <UsageCount Value="11"/>
+        <Loaded Value="True"/>
+      </Unit30>
+      <Unit31>
+        <Filename Value="..\..\..\..\..\..\usr\share\fpcsrc\2.4.0\rtl\linux\ptypes.inc"/>
+        <CursorPos X="3" Y="129"/>
+        <TopLine Value="105"/>
+        <EditorIndex Value="3"/>
+        <UsageCount Value="11"/>
+        <Loaded Value="True"/>
+      </Unit31>
+    </Units>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="..\linux\q_shlinux.pas"/>
+        <Caret Line="65" Column="3" TopLine="41"/>
+      </Position1>
+      <Position2>
+        <Filename Value="..\linux\q_shlinux.pas"/>
+        <Caret Line="70" Column="26" TopLine="41"/>
+      </Position2>
+      <Position3>
+        <Filename Value="..\linux\q_shlinux.pas"/>
+        <Caret Line="61" Column="17" TopLine="41"/>
+      </Position3>
+      <Position4>
+        <Filename Value="..\linux\q_shlinux.pas"/>
+        <Caret Line="53" Column="50" TopLine="29"/>
+      </Position4>
+      <Position5>
+        <Filename Value="..\linux\q_shlinux.pas"/>
+        <Caret Line="61" Column="18" TopLine="41"/>
+      </Position5>
+      <Position6>
+        <Filename Value="..\linux\q_shlinux.pas"/>
+        <Caret Line="59" Column="37" TopLine="29"/>
+      </Position6>
+      <Position7>
+        <Filename Value="..\linux\q_shlinux.pas"/>
+        <Caret Line="53" Column="49" TopLine="29"/>
+      </Position7>
+      <Position8>
+        <Filename Value="..\linux\q_shlinux.pas"/>
+        <Caret Line="56" Column="33" TopLine="41"/>
+      </Position8>
+      <Position9>
+        <Filename Value="..\linux\q_shlinux.pas"/>
+        <Caret Line="53" Column="52" TopLine="29"/>
+      </Position9>
+      <Position10>
+        <Filename Value="..\linux\q_shlinux.pas"/>
+        <Caret Line="59" Column="39" TopLine="41"/>
+      </Position10>
+      <Position11>
+        <Filename Value="..\linux\q_shlinux.pas"/>
+        <Caret Line="56" Column="16" TopLine="69"/>
+      </Position11>
+      <Position12>
+        <Filename Value="..\linux\q_shlinux.pas"/>
+        <Caret Line="38" Column="11" TopLine="23"/>
+      </Position12>
+      <Position13>
+        <Filename Value="..\linux\q_shlinux.pas"/>
+        <Caret Line="92" Column="9" TopLine="68"/>
+      </Position13>
+      <Position14>
+        <Filename Value="..\linux\q_shlinux.pas"/>
+        <Caret Line="65" Column="3" TopLine="41"/>
+      </Position14>
+      <Position15>
+        <Filename Value="..\linux\q_shlinux.pas"/>
+        <Caret Line="92" Column="9" TopLine="68"/>
+      </Position15>
+      <Position16>
+        <Filename Value="..\linux\q_shlinux.pas"/>
+        <Caret Line="65" Column="3" TopLine="41"/>
+      </Position16>
+      <Position17>
+        <Filename Value="..\linux\q_shlinux.pas"/>
+        <Caret Line="111" Column="10" TopLine="87"/>
+      </Position17>
+      <Position18>
+        <Filename Value="..\linux\q_shlinux.pas"/>
+        <Caret Line="65" Column="3" TopLine="41"/>
+      </Position18>
+      <Position19>
+        <Filename Value="..\linux\q_shlinux.pas"/>
+        <Caret Line="138" Column="15" TopLine="36"/>
+      </Position19>
+      <Position20>
+        <Filename Value="..\linux\q_shlinux.pas"/>
+        <Caret Line="53" Column="10" TopLine="36"/>
+      </Position20>
+      <Position21>
+        <Filename Value="..\linux\q_shlinux.pas"/>
+        <Caret Line="134" Column="9" TopLine="114"/>
+      </Position21>
+      <Position22>
+        <Filename Value="..\..\..\..\..\..\usr\share\fpcsrc\2.4.0\rtl\unix\aliasptp.inc"/>
+        <Caret Line="65" Column="5" TopLine="40"/>
+      </Position22>
+      <Position23>
+        <Filename Value="..\..\..\..\..\..\usr\share\fpcsrc\2.4.0\rtl\linux\ptypes.inc"/>
+        <Caret Line="129" Column="3" TopLine="108"/>
+      </Position23>
+      <Position24>
+        <Filename Value="..\linux\q_shlinux.pas"/>
+        <Caret Line="134" Column="9" TopLine="114"/>
+      </Position24>
+      <Position25>
+        <Filename Value="..\linux\q_shlinux.pas"/>
+        <Caret Line="140" Column="6" TopLine="116"/>
+      </Position25>
+      <Position26>
+        <Filename Value="..\linux\q_shlinux.pas"/>
+        <Caret Line="155" Column="13" TopLine="131"/>
+      </Position26>
+      <Position27>
+        <Filename Value="..\linux\q_shlinux.pas"/>
+        <Caret Line="65" Column="3" TopLine="41"/>
+      </Position27>
+      <Position28>
+        <Filename Value="..\linux\q_shlinux.pas"/>
+        <Caret Line="155" Column="22" TopLine="107"/>
+      </Position28>
+      <Position29>
+        <Filename Value="..\linux\q_shlinux.pas"/>
+        <Caret Line="142" Column="15" TopLine="118"/>
+      </Position29>
+      <Position30>
+        <Filename Value="..\linux\q_shlinux.pas"/>
+        <Caret Line="164" Column="23" TopLine="140"/>
+      </Position30>
+>>>>>>> 0c4caab0417c2ec96ae7e8ee20fc2a435b560750
     </JumpHistory>
   </ProjectOptions>
   <CompilerOptions>
