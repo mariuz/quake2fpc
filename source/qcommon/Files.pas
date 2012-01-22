@@ -93,7 +93,7 @@ uses
 //DELPHI 5
 //  D5Compat,
   {$IFDEF LINUX}
-  Libc,
+  sysutils,
   {$ENDIF}
   CVar {, ref};
 
@@ -141,7 +141,6 @@ implementation
 
 uses
   CPas,
-  SysUtils,
   q_Shared,
   qfiles,
   {$IFDEF WIN32}
@@ -1111,4 +1110,4 @@ begin
     FS_SetGamedir(fs_gamedirvar.string_);
 end;
 
-end.
+end.

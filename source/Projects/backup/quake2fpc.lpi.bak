@@ -13,7 +13,11 @@
       <MainUnit Value="0"/>
       <TargetFileExt Value=".exe"/>
       <Title Value="quake2FPC"/>
+      <ActiveWindowIndexAtStart Value="0"/>
     </General>
+    <VersionInfo>
+      <StringTable Comments="" CompanyName="" FileDescription="" FileVersion="0.0.0.0" InternalName="" LegalCopyright="" LegalTrademarks="" OriginalFilename="" ProductName="" ProductVersion="0.0.0.0"/>
+    </VersionInfo>
     <PublishOptions>
       <Version Value="2"/>
       <IgnoreBinaries Value="False"/>
@@ -26,167 +30,225 @@
         <LaunchingApplication PathPlusParams="\usr\X11R6\bin\xterm -T 'Lazarus Run Output' -e $(LazarusDir)\tools\runwait.sh $(TargetCmdLine)"/>
       </local>
     </RunParams>
-    <Units Count="22">
+    <Units Count="24">
       <Unit0>
         <Filename Value="quake2fpc.lpr"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="quake2FPC"/>
-        <CursorPos X="9" Y="78"/>
-        <TopLine Value="124"/>
-        <UsageCount Value="26"/>
-        <SyntaxHighlighter Value="Delphi"/>
+        <EditorIndex Value="0"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="134"/>
+        <CursorPos X="31" Y="150"/>
+        <UsageCount Value="27"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
       </Unit0>
       <Unit1>
         <Filename Value="C:\PF\bor_old\d6\projects\games\quake\game\q_shared.pas"/>
         <UnitName Value="q_shared"/>
-        <CursorPos X="17" Y="103"/>
         <TopLine Value="65"/>
+        <CursorPos X="17" Y="103"/>
         <UsageCount Value="10"/>
       </Unit1>
       <Unit2>
         <Filename Value="C:\PF\bor_old\d6\projects\games\quake\qcommon\qfiles.pas"/>
         <UnitName Value="QFiles"/>
-        <CursorPos X="27" Y="529"/>
         <TopLine Value="491"/>
+        <CursorPos X="27" Y="529"/>
         <UsageCount Value="10"/>
       </Unit2>
       <Unit3>
         <Filename Value="C:\PF\bor_old\d6\projects\games\quake\qcommon\DelphiTypes.pas"/>
         <UnitName Value="DelphiTypes"/>
-        <CursorPos X="67" Y="54"/>
         <TopLine Value="1"/>
+        <CursorPos X="67" Y="54"/>
         <UsageCount Value="10"/>
       </Unit3>
       <Unit4>
         <Filename Value="C:\PF\bor_old\d6\projects\games\quake\win32\snd_win.pas"/>
         <UnitName Value="snd_win"/>
-        <CursorPos X="14" Y="62"/>
         <TopLine Value="1"/>
+        <CursorPos X="14" Y="62"/>
         <UsageCount Value="10"/>
       </Unit4>
       <Unit5>
         <Filename Value="C:\PF\bor_old\d6\projects\games\quake\client\menu.pas"/>
         <UnitName Value="menu"/>
-        <CursorPos X="9" Y="2697"/>
         <TopLine Value="2686"/>
+        <CursorPos X="9" Y="2697"/>
         <UsageCount Value="10"/>
       </Unit5>
       <Unit6>
         <Filename Value="C:\PF\bor_old\d6\projects\games\quake\server\sv_world.pas"/>
         <UnitName Value="sv_world"/>
-        <CursorPos X="65" Y="663"/>
         <TopLine Value="658"/>
+        <CursorPos X="65" Y="663"/>
         <UsageCount Value="10"/>
       </Unit6>
       <Unit7>
         <Filename Value="C:\PF\bor_old\d6\projects\games\quake\client\cl_main.pas"/>
         <UnitName Value="cl_main"/>
-        <CursorPos X="37" Y="805"/>
         <TopLine Value="767"/>
+        <CursorPos X="37" Y="805"/>
         <UsageCount Value="10"/>
       </Unit7>
       <Unit8>
         <Filename Value="C:\PF\bor_old\d6\projects\games\quake\qcommon\Common.pas"/>
-        <CursorPos X="43" Y="594"/>
         <TopLine Value="556"/>
+        <CursorPos X="43" Y="594"/>
         <UsageCount Value="10"/>
       </Unit8>
       <Unit9>
         <Filename Value="C:\PF\bor_old\d6\projects\games\quake\win32\net_wins.pas"/>
         <UnitName Value="net_wins"/>
-        <CursorPos X="3" Y="275"/>
         <TopLine Value="237"/>
+        <CursorPos X="3" Y="275"/>
         <UsageCount Value="10"/>
       </Unit9>
       <Unit10>
         <Filename Value="D5Compat.pas"/>
         <UnitName Value="D5Compat"/>
-        <CursorPos X="53" Y="54"/>
         <TopLine Value="1"/>
+        <CursorPos X="53" Y="54"/>
         <UsageCount Value="10"/>
       </Unit10>
       <Unit11>
         <Filename Value="C:\PF\bor_old\d6\projects\games\quake\qcommon\CVar.pas"/>
         <UnitName Value="CVar"/>
-        <CursorPos X="10" Y="49"/>
         <TopLine Value="11"/>
+        <CursorPos X="10" Y="49"/>
         <UsageCount Value="10"/>
       </Unit11>
       <Unit12>
         <Filename Value="C:\PF\bor_old\d6\projects\games\quake\qcommon\Files.pas"/>
         <UnitName Value="Files"/>
-        <CursorPos X="16" Y="156"/>
         <TopLine Value="118"/>
+        <CursorPos X="16" Y="156"/>
         <UsageCount Value="10"/>
       </Unit12>
       <Unit13>
         <Filename Value="C:\PF\bor_old\d6\projects\games\quake\qcommon\CPas.pas"/>
         <UnitName Value="CPas"/>
-        <CursorPos X="3" Y="294"/>
         <TopLine Value="256"/>
+        <CursorPos X="3" Y="294"/>
         <UsageCount Value="10"/>
       </Unit13>
       <Unit14>
         <Filename Value="C:\PF\bor_old\d6\projects\games\quake\client\snd_loc.pas"/>
         <UnitName Value="snd_loc"/>
-        <CursorPos X="1" Y="46"/>
         <TopLine Value="9"/>
+        <CursorPos X="1" Y="46"/>
         <UsageCount Value="10"/>
       </Unit14>
       <Unit15>
         <Filename Value="C:\PF\bor_old\d6\projects\games\quake\client\ref.pas"/>
-        <CursorPos X="3" Y="50"/>
         <TopLine Value="12"/>
+        <CursorPos X="3" Y="50"/>
         <UsageCount Value="10"/>
       </Unit15>
       <Unit16>
         <Filename Value="C:\PF\bor_old\d6\projects\games\quake\client\Client.pas"/>
         <UnitName Value="Client"/>
-        <CursorPos X="10" Y="33"/>
         <TopLine Value="1"/>
+        <CursorPos X="10" Y="33"/>
         <UsageCount Value="10"/>
       </Unit16>
       <Unit17>
         <Filename Value="C:\PF\bor_old\d6\projects\games\quake\qcommon\CModel.pas"/>
         <UnitName Value="CModel"/>
-        <CursorPos X="77" Y="2"/>
         <TopLine Value="1"/>
+        <CursorPos X="77" Y="2"/>
         <UsageCount Value="10"/>
       </Unit17>
       <Unit18>
         <Filename Value="C:\PF\bor_old\d6\projects\games\quake\win32\sys_win.pas"/>
         <UnitName Value="sys_win"/>
-        <CursorPos X="51" Y="49"/>
         <TopLine Value="1"/>
+        <CursorPos X="51" Y="49"/>
         <UsageCount Value="11"/>
       </Unit18>
       <Unit19>
         <Filename Value="..\client\asm_i386.pas"/>
         <UnitName Value="asm_i386"/>
-        <CursorPos X="1" Y="1"/>
         <TopLine Value="96"/>
+        <CursorPos X="1" Y="1"/>
         <UsageCount Value="10"/>
       </Unit19>
       <Unit20>
         <Filename Value="..\game\q_shared_add.pas"/>
         <UnitName Value="q_shared_add"/>
-        <CursorPos X="1" Y="1"/>
-        <TopLine Value="143"/>
+        <EditorIndex Value="4"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="88"/>
+        <CursorPos X="61" Y="115"/>
         <UsageCount Value="10"/>
-        <SyntaxHighlighter Value="Delphi"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
       </Unit20>
       <Unit21>
         <Filename Value="..\linux\sys_linux.pas"/>
         <UnitName Value="sys_linux"/>
-        <CursorPos X="19" Y="494"/>
-        <TopLine Value="3"/>
+        <EditorIndex Value="1"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="16"/>
+        <CursorPos X="29" Y="31"/>
         <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
       </Unit21>
+      <Unit22>
+        <Filename Value="..\qcommon\CVar.pas"/>
+        <UnitName Value="CVar"/>
+        <EditorIndex Value="2"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="75"/>
+        <CursorPos X="12" Y="89"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit22>
+      <Unit23>
+        <Filename Value="..\qcommon\Files.pas"/>
+        <UnitName Value="Files"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="3"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit23>
     </Units>
-    <JumpHistory Count="0" HistoryIndex="-1"/>
+    <JumpHistory Count="6" HistoryIndex="5">
+      <Position1>
+        <Filename Value="..\game\q_shared_add.pas"/>
+        <Caret Line="1" Column="1" TopLine="1"/>
+      </Position1>
+      <Position2>
+        <Filename Value="..\game\q_shared_add.pas"/>
+        <Caret Line="242" Column="35" TopLine="228"/>
+      </Position2>
+      <Position3>
+        <Filename Value="..\qcommon\CVar.pas"/>
+        <Caret Line="1" Column="1" TopLine="1"/>
+      </Position3>
+      <Position4>
+        <Filename Value="..\qcommon\CVar.pas"/>
+        <Caret Line="60" Column="37" TopLine="60"/>
+      </Position4>
+      <Position5>
+        <Filename Value="..\qcommon\Files.pas"/>
+        <Caret Line="1" Column="1" TopLine="1"/>
+      </Position5>
+      <Position6>
+        <Filename Value="..\qcommon\CVar.pas"/>
+        <Caret Line="208" Column="6" TopLine="184"/>
+      </Position6>
+    </JumpHistory>
   </ProjectOptions>
   <CompilerOptions>
-    <Version Value="8"/>
+    <Version Value="9"/>
     <PathDelim Value="\"/>
     <SearchPaths>
       <OtherUnitFiles Value="..\game\;..\ctf\;..\directx\"/>
@@ -195,7 +257,6 @@
     <Parsing>
       <SyntaxOptions>
         <SyntaxMode Value="Delphi"/>
-        <UseAnsiStrings Value="True"/>
       </SyntaxOptions>
     </Parsing>
     <CodeGeneration>
