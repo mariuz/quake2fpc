@@ -28,11 +28,9 @@ Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
 
 interface
 
-<<<<<<< HEAD
-uses q_shared_add , sysutils , Common;
-=======
+
 uses q_shared_add , SysUtils , Common ,unix;
->>>>>>> 0c4caab0417c2ec96ae7e8ee20fc2a435b560750
+
 
 {.$include <unistd.h>}
 {.$include <signal.h>}

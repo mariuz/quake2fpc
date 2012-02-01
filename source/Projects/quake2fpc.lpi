@@ -34,10 +34,9 @@
         <Filename Value="quake2fpc.lpr"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="quake2FPC"/>
-        <IsVisibleTab Value="True"/>
         <EditorIndex Value="0"/>
         <WindowIndex Value="0"/>
-        <TopLine Value="209"/>
+        <TopLine Value="150"/>
         <CursorPos X="31" Y="150"/>
         <UsageCount Value="27"/>
         <Loaded Value="True"/>
@@ -191,8 +190,8 @@
         <UnitName Value="sys_linux"/>
         <EditorIndex Value="1"/>
         <WindowIndex Value="0"/>
-        <TopLine Value="16"/>
-        <CursorPos X="29" Y="31"/>
+        <TopLine Value="23"/>
+        <CursorPos X="1" Y="33"/>
         <UsageCount Value="10"/>
         <Loaded Value="True"/>
         <DefaultSyntaxHighlighter Value="Delphi"/>
@@ -211,16 +210,17 @@
       <Unit23>
         <Filename Value="..\qcommon\Files.pas"/>
         <UnitName Value="Files"/>
+        <IsVisibleTab Value="True"/>
         <EditorIndex Value="3"/>
         <WindowIndex Value="0"/>
-        <TopLine Value="130"/>
-        <CursorPos X="8" Y="143"/>
+        <TopLine Value="1"/>
+        <CursorPos X="7" Y="2227"/>
         <UsageCount Value="10"/>
         <Loaded Value="True"/>
         <DefaultSyntaxHighlighter Value="Delphi"/>
       </Unit23>
     </Units>
-    <JumpHistory Count="7" HistoryIndex="6">
+    <JumpHistory Count="10" HistoryIndex="9">
       <Position1>
         <Filename Value="..\game\q_shared_add.pas"/>
         <Caret Line="1" Column="1" TopLine="1"/>
@@ -249,6 +249,18 @@
         <Filename Value="..\qcommon\Files.pas"/>
         <Caret Line="1" Column="1" TopLine="1"/>
       </Position7>
+      <Position8>
+        <Filename Value="..\linux\sys_linux.pas"/>
+        <Caret Line="31" Column="29" TopLine="16"/>
+      </Position8>
+      <Position9>
+        <Filename Value="..\qcommon\Files.pas"/>
+        <Caret Line="143" Column="8" TopLine="130"/>
+      </Position9>
+      <Position10>
+        <Filename Value="..\qcommon\Files.pas"/>
+        <Caret Line="1" Column="1" TopLine="1"/>
+      </Position10>
     </JumpHistory>
   </ProjectOptions>
   <CompilerOptions>
