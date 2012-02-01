@@ -19,6 +19,10 @@ Introduction:
 
 This is Freepascal conversion of Quake2 sourcecode.
 
+To view an overview of Quake2 source code , a good intro is here 
+
+ http://fabiensanglard.net/quake2/index.php
+
 FreePascal notes:
   See the Quake2FPC.LPR project file for comments about 
   this project and graphics problem.
