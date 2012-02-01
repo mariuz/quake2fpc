@@ -29,14 +29,13 @@ FreePascal notes:
 
 WWW-sites:
 
-Main Delphi project site: 
+Old Delphi project site: 
  http://www.sulaco.co.za/quake2/
 
-old stalled Freepascal port:
+Old stalled Freepascal port:
  http://z505.com
  
-old stalled Developement site: 
- http://sourceforge.net/projects/quake2delphi/
+
 
 
 
