@@ -62,10 +62,10 @@ begin
   
   if (membase = nil)or(membase = PByte(-1)) then
   Sys_Error('unable to virtual allocate %d bytes',[maxsize]);
-  Integer(membase):= curhunksize;
+  PTRINT(membase):= curhunksize;
   
   
-  result:= Integer(membase) + sizeof(integer);
+  result:= PTRINT(membase) + sizeof(integer);
     
 end;
 
@@ -93,7 +93,7 @@ begin
   if n <> membase then
   Sys_Error('Hunk_End:  Could not remap virtual block (%d)', [errno]); 
   //*({!!!a type cast? =>} {pinteger(}membase):=curhunksize+sizeof(int);
-  Integer(membase) := curhunksize + sizeof(integer);
+  PTRINT(membase) := curhunksize + sizeof(PTRINT);
   result:= curhunksize; 
     
 end;
