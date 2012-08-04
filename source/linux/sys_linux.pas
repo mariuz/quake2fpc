@@ -80,7 +80,7 @@ procedure Sys_SendKeyEvents;
 procedure Sys_AppActivate;
 function main(argc: integer; argv: pchar): integer;
 //function Sys_GetClipboardData: PChar;
-//procedure Sys_CopyProtect;
+
 function Sys_GetGameAPI(parms: Pointer): Pointer ;
 
 

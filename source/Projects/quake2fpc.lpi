@@ -12,7 +12,6 @@
       </Flags>
       <MainUnit Value="0"/>
       <Title Value="quake2FPC"/>
-      <ActiveWindowIndexAtStart Value="0"/>
     </General>
     <BuildModes Count="1">
       <Item1 Name="default" Default="True"/>
@@ -34,12 +33,11 @@
         <Filename Value="quake2fpc.lpr"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="quake2FPC"/>
-        <EditorIndex Value="0"/>
+        <IsVisibleTab Value="True"/>
         <WindowIndex Value="0"/>
-        <TopLine Value="150"/>
-        <CursorPos X="31" Y="150"/>
-        <UsageCount Value="28"/>
-        <Loaded Value="True"/>
+        <TopLine Value="100"/>
+        <CursorPos X="1" Y="135"/>
+        <UsageCount Value="30"/>
         <LoadedDesigner Value="True"/>
         <DefaultSyntaxHighlighter Value="Delphi"/>
       </Unit0>
@@ -186,99 +184,41 @@
       <Unit21>
         <Filename Value="..\linux\sys_linux.pas"/>
         <UnitName Value="sys_linux"/>
-        <EditorIndex Value="1"/>
         <WindowIndex Value="0"/>
-        <TopLine Value="23"/>
-        <CursorPos X="1" Y="33"/>
-        <UsageCount Value="10"/>
-        <Loaded Value="True"/>
+        <TopLine Value="542"/>
+        <CursorPos X="1" Y="157"/>
+        <UsageCount Value="11"/>
         <DefaultSyntaxHighlighter Value="Delphi"/>
       </Unit21>
       <Unit22>
         <Filename Value="..\qcommon\CVar.pas"/>
         <UnitName Value="CVar"/>
-        <IsVisibleTab Value="True"/>
-        <EditorIndex Value="2"/>
         <WindowIndex Value="0"/>
-        <TopLine Value="111"/>
-        <CursorPos X="12" Y="89"/>
-        <UsageCount Value="10"/>
-        <Loaded Value="True"/>
+        <TopLine Value="265"/>
+        <CursorPos X="1" Y="195"/>
+        <UsageCount Value="11"/>
         <DefaultSyntaxHighlighter Value="Delphi"/>
       </Unit22>
       <Unit23>
         <Filename Value="..\qcommon\Files.pas"/>
         <UnitName Value="Files"/>
-        <EditorIndex Value="3"/>
         <WindowIndex Value="0"/>
-        <TopLine Value="2188"/>
+        <TopLine Value="2044"/>
         <CursorPos X="7" Y="2227"/>
-        <UsageCount Value="10"/>
-        <Loaded Value="True"/>
+        <UsageCount Value="11"/>
         <DefaultSyntaxHighlighter Value="Delphi"/>
       </Unit23>
       <Unit24>
         <Filename Value="..\linux\q_shlinux.pas"/>
         <UnitName Value="q_shlinux"/>
-        <EditorIndex Value="4"/>
         <WindowIndex Value="0"/>
-        <TopLine Value="241"/>
-        <CursorPos X="41" Y="59"/>
-        <UsageCount Value="10"/>
-        <Loaded Value="True"/>
+        <TopLine Value="1"/>
+        <CursorPos X="13" Y="183"/>
+        <UsageCount Value="11"/>
         <DefaultSyntaxHighlighter Value="Delphi"/>
       </Unit24>
     </Units>
-    <JumpHistory Count="12" HistoryIndex="11">
-      <Position1>
-        <Filename Value="..\qcommon\CVar.pas"/>
-        <Caret Line="1" Column="1" TopLine="1"/>
-      </Position1>
-      <Position2>
-        <Filename Value="..\qcommon\CVar.pas"/>
-        <Caret Line="60" Column="37" TopLine="60"/>
-      </Position2>
-      <Position3>
-        <Filename Value="..\qcommon\Files.pas"/>
-        <Caret Line="1" Column="1" TopLine="1"/>
-      </Position3>
-      <Position4>
-        <Filename Value="..\qcommon\CVar.pas"/>
-        <Caret Line="208" Column="6" TopLine="184"/>
-      </Position4>
-      <Position5>
-        <Filename Value="..\qcommon\Files.pas"/>
-        <Caret Line="1" Column="1" TopLine="1"/>
-      </Position5>
-      <Position6>
-        <Filename Value="..\linux\sys_linux.pas"/>
-        <Caret Line="31" Column="29" TopLine="16"/>
-      </Position6>
-      <Position7>
-        <Filename Value="..\qcommon\Files.pas"/>
-        <Caret Line="143" Column="8" TopLine="130"/>
-      </Position7>
-      <Position8>
-        <Filename Value="..\qcommon\Files.pas"/>
-        <Caret Line="1" Column="1" TopLine="1"/>
-      </Position8>
-      <Position9>
-        <Filename Value="..\linux\q_shlinux.pas"/>
-        <Caret Line="1" Column="1" TopLine="1"/>
-      </Position9>
-      <Position10>
-        <Filename Value="..\linux\q_shlinux.pas"/>
-        <Caret Line="65" Column="3" TopLine="46"/>
-      </Position10>
-      <Position11>
-        <Filename Value="..\linux\q_shlinux.pas"/>
-        <Caret Line="68" Column="18" TopLine="50"/>
-      </Position11>
-      <Position12>
-        <Filename Value="..\linux\q_shlinux.pas"/>
-        <Caret Line="65" Column="9" TopLine="47"/>
-      </Position12>
-    </JumpHistory>
+    <JumpHistory Count="0" HistoryIndex="-1"/>
   </ProjectOptions>
   <CompilerOptions>
     <Version Value="9"/>

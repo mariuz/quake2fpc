@@ -192,7 +192,6 @@ var
 implementation
 
 uses
-//  cmd,
   Common,
   Files,
   CPas;
